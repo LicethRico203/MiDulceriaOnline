@@ -1,0 +1,41 @@
+{
+  "name": "midulceriaonline",
+  "version": "1.0.0",
+  "description": "Backend Proyecto \"Venta de dulces Online\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LicethRico203/MiDulceriaOnline.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongodb",
+    "react"
+  ],
+  "author": "Liceth Yesenia Rico España",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LicethRico203/MiDulceriaOnline/issues"
+  },
+  "homepage": "https://github.com/LicethRico203/MiDulceriaOnline#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.20.1",
+    "connect-multiparty": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jwt-simple": "^0.5.6",
+    "mogoose": "^0.0.1-security",
+    "moment": "^2.29.4",
+    "mongoose": "^6.8.1",
+    "mongoose-pagination": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
